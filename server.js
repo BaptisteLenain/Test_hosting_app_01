@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
+  connectionString: process.env.DATABASE_URL
 });
 
 app.use(cors());
